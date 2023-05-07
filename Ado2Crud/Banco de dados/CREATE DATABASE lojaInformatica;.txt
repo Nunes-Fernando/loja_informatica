@@ -1,0 +1,11 @@
+CREATE DATABASE lojainformatica;
+
+use lojainformatica;
+
+CREATE TABLE computador(
+	
+	id int auto_increment primary key not null,
+	marca varchar(40) not null,
+	hd varchar(30)not null,
+	processador varchar(40)not null
+);
